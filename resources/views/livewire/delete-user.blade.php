@@ -29,7 +29,7 @@
                         <option value="{{ $user->username }}">{{ $user->username }}</option>
                     @endforeach
                 </select>
-                
+                <h2 class="hidden">{{ $delete_user }}</h2>
             </div>
 
            

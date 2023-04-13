@@ -24,7 +24,7 @@
                     <input type="text" id="name" name="name"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         placeholder="Nombre" wire:model.defer="name" required autocomplete="off">
-                    <h2 class="hidden">{{ $name }}ssss</h2>
+                    
                 </div>
 
                 <div class="mb-4">
@@ -32,7 +32,7 @@
                     <input type="text" id="username" name="username"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         placeholder="Usuario" wire:model.defer="username" required autocomplete="off">
-                    <h2 class="hidden">{{ $username }}ssss</h2>
+                    
                 </div>
 
                 <div class="mb-4">
@@ -40,7 +40,7 @@
                     <input type="password" id="password" name="password"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         placeholder="Contraseña" wire:model.defer="password" required>
-                    <h2 class="hidden">{{ $password }}ssss</h2>
+                    
                 </div>
 
                 <div class="mb-4">
@@ -49,7 +49,7 @@
                     <input type="password" id="password" name="password_confirmation"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         placeholder="Contraseña" wire:model.defer="confirm" required>
-                    <h2 class="hidden">{{ $confirm }}ssss</h2>
+                    
                 </div>
 
                 <button

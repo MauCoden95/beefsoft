@@ -36,7 +36,7 @@
                 <input type="text" id="address" name="address"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="Dirección" wire:model.defer="address" required>
-                <h2 class="">{{ $address }}</h2>
+                <h2 class="hidden">{{ $address }}</h2>
             </div>
 
             <div class="mb-4">
@@ -44,7 +44,7 @@
                 <input type="number" id="phone" name="phone"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="Teléfono" wire:model.defer="phone" required>
-                <h2 class="">{{ $phone }}</h2>
+                <h2 class="hidden">{{ $phone }}</h2>
             </div>
 
             <div class="mb-4">
@@ -52,7 +52,7 @@
                 <input type="number" id="phone2" name="phone2"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="Segundo Teléfono" wire:model.defer="phone2" required>
-                <h2 class="">{{ $phone2 }}</h2>
+                <h2 class="hidden">{{ $phone2 }}</h2>
             </div>
 
             <button
