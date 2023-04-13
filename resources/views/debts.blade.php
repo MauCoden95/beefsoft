@@ -36,7 +36,7 @@
 
     <div class="relative w-3/4 h-full overflow-y-auto">
         <div class="w-11/12 h-32 mt-5 flex items.center justify-between m-auto">
-            @livewire('count-clients')
+            @livewire('count-debts')
 
             <button
                 class="btn-create w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
