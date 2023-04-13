@@ -5,7 +5,8 @@
 }
 
 .create,
-.delete{
+.delete,
+.update{
     background: rgba(21, 21, 21, 0.6);
 }
 

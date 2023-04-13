@@ -2,10 +2,13 @@
 const table = document.querySelector('.table');
 const createForm = document.querySelector('.create');
 const deleteForm = document.querySelector('.delete');
+const updateForm = document.querySelector('.update');
 const btnCreate = document.querySelector('.btn-create');
 const btnDelete = document.querySelector('.btn-delete');
+const btnUpdate = document.querySelector('.btn-update');
 const btnCloseCreate = document.querySelector('.close-create');
 const btnCloseDelete = document.querySelector('.close-delete');
+const btnCloseUpdate = document.querySelector('.close-update');
 
 
 if (createForm) {
@@ -14,6 +17,10 @@ if (createForm) {
 
 if (deleteForm) {
     deleteForm.style.display = "none";
+}
+
+if (updateForm) {
+    updateForm.style.display = "none";
 }
 
 if (btnCreate) {
@@ -28,6 +35,12 @@ if (btnDelete) {
     });
 }
 
+if (btnUpdate) {
+    btnUpdate.addEventListener('click', () => {
+        updateForm.style.display = "block";
+    });
+}
+
 if (btnCloseCreate) {
     btnCloseCreate.addEventListener('click', () => {
         createForm.style.display = "none";
@@ -38,7 +51,13 @@ if (btnCloseDelete) {
     btnCloseDelete.addEventListener('click', () => {
         deleteForm.style.display = "none";
     });
-}btnCloseDelete
+}
+
+if (btnCloseUpdate) {
+    btnCloseUpdate.addEventListener('click', () => {
+        updateForm.style.display = "none";
+    });
+}
 
 
 // if (btnCloseCreateUser) {

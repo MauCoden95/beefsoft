@@ -22,7 +22,7 @@
                             <td class="w-1/4 py-3"><p class="text-center">{{ $clients->dni }}</p></td>
                             <td class="w-1/4 py-3"><p class="text-center timestands">{{ $clients->address }}</p></td>
                             <td class="w-1/4 py-3"><p class="text-center">{{ $clients->phone }}</p></td>
-                            <td class="w-1/4 py-3"><p class="text-center timestands">{{ $clients->phone }}</p></td>
+                            <td class="w-1/4 py-3"><p class="text-center timestands">{{ $clients->phone2 }}</p></td>
                         </tr>
                     @endforeach
 

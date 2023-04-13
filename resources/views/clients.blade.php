@@ -59,6 +59,8 @@
 
         @livewire('create-client')
 
+        @livewire('update-client')
+
         @livewire('delete-client')
 
 
