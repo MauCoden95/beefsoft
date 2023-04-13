@@ -1,7 +1,7 @@
 <div>
-    <div class="create w-full min-h-0 pb-80 top-0 z-40 m-auto absolute">
+    <div class="table w-full min-h-0 pb-80 top-0 z-40 m-auto absolute">
         <div class="w-4/5 min-h-0 p-3 m-auto mt-5 bg-white rounded-md">
-            <button class="fas fa-times absolute top-10 right-28 text-4xl close-create__user"></button>
+            <button class="fas fa-times absolute top-10 right-28 text-4xl close-create__client"></button>
             @csrf
             <div class="p-4 flex">
                 <h1 class="text-3xl m-auto">

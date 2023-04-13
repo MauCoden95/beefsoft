@@ -1,46 +1,76 @@
 /*Users table*/
-const tableUsers = document.querySelector('.table-users');
-const createUsers = document.querySelector('.create-users');
-const deleteUsers = document.querySelector('.delete-users');
-const btnCreateUser = document.querySelector('.btn-create__user');
-const btnDeleteUser = document.querySelector('.btn-delete__user');
-const btnCloseCreateUser = document.querySelector('.close-create__user');
-const btnCloseDeleteUser = document.querySelector('.close-delete__user');
+const table = document.querySelector('.table');
+const createForm = document.querySelector('.create');
+const deleteForm = document.querySelector('.delete');
+const btnCreate = document.querySelector('.btn-create');
+const btnDelete = document.querySelector('.btn-delete');
+const btnCloseCreate = document.querySelector('.close-create__user');
+const btnCloseDelete = document.querySelector('.close-delete__user');
 
 
-if (createUsers) {
-    createUsers.style.display = "none";
+if (createForm) {
+    createForm.style.display = "none";
 }
 
-if (deleteUsers) {
-    deleteUsers.style.display = "none";
+if (deleteForm) {
+    deleteForm.style.display = "none";
 }
 
-if (btnCloseCreateUser) {
-    btnCloseCreateUser.addEventListener('click', () =>{
-        createUsers.style.display = "none";
-    });
-};
-
-
-if (btnCreateUser) {
-    btnCreateUser.addEventListener('click', () => {
-        createUsers.style.display = "block";
+if (btnCreate) {
+    btnCreate.addEventListener('click', () => {
+        createForm.style.display = "block";
     });
 }
 
-
-if (btnDeleteUser) {
-  btnDeleteUser.addEventListener('click', () => {
-        deleteUsers.style.display = "block";
-  });
+if (btnDelete) {
+    btnDelete.addEventListener('click', () => {
+        deleteForm.style.display = "block";
+    });
 }
 
-if (btnCloseDeleteUser) {
-    btnCloseDeleteUser.addEventListener('click', () =>{
-        deleteUsers.style.display = "none";
+if (btnCloseCreate) {
+    btnCloseCreate.addEventListener('click', () => {
+        createForm.style.display = "none";
     });
-};
+}
+
+if (btnCloseDelete) {
+    btnCloseDelete.addEventListener('click', () => {
+        deleteForm.style.display = "none";
+    });
+}btnCloseDelete
+
+
+// if (btnCloseCreateUser) {
+//     btnCloseCreateUser.addEventListener('click', () =>{
+//         createUsers.style.display = "none";
+//     });
+// };
+
+
+// if (btnCreateUser) {
+//     btnCreateUser.addEventListener('click', () => {
+//         createUsers.style.display = "block";
+//     });
+// }
+
+
+// if (btnDeleteUser) {
+//   btnDeleteUser.addEventListener('click', () => {
+//         deleteUsers.style.display = "block";
+//   });
+// }
+
+// if (btnCloseDeleteUser) {
+//     btnCloseDeleteUser.addEventListener('click', () =>{
+//         deleteUsers.style.display = "none";
+//     });
+// };
+
+
+
+
+
 
 
 

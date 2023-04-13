@@ -1,5 +1,5 @@
 <div>
-    <div class="delete-users w-full h-full top-0 z-40 m-auto absolute">
+    <div class="delete w-full h-full top-0 z-40 m-auto absolute">
         <div class="w-4/5 min-h-0 p-3 m-auto mt-5 bg-white rounded-md">
             <button class="fas fa-times absolute top-10 right-28 text-4xl close-delete__user"></button>
             @csrf

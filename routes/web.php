@@ -23,6 +23,10 @@ Route::get('/usuarios', function () {
     return view('users');
 });
 
+Route::get('/clientes', function () {
+    return view('clients');
+});
+
 Route::post('/create-user', [UserController::class, 'store'])->name('create-user');
 
 Route::get('/dashboard', function () {

@@ -4,8 +4,8 @@
     background-size: 100%;
 }
 
-.create-users,
-.delete-users{
+.create,
+.delete{
     background: rgba(21, 21, 21, 0.6);
 }
 

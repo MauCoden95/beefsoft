@@ -12,9 +12,9 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/Styles.css') }}">
-    
+
     <script src="{{ asset('js/app.js') }}"></script>
-    
+
 
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -36,27 +36,31 @@
 
     <div class="relative w-3/4 h-full overflow-y-auto">
         <div class="w-11/12 h-32 mt-5 flex items.center justify-between m-auto">
-            @livewire('users')
-          
+            @livewire('count-clients')
+
             <button
-                class="btn-create w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
-                <h2 class="text-xl">Crear Usuario <i class="fas fa-plus-square"></i></h2>
+                class="btn-create__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                <h2 class="text-xl">Agregar cliente <i class="fas fa-plus-square"></i></h2>
             </button>
 
             <button
-                class="btn-delete w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
-                <h2 class="text-xl">Eliminar Usuario <i class="fas fa-user-times"></i></h2>
+                class="btn-delete__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                <h2 class="text-xl">Actualizar Cliente <i class="fas fa-user-times"></i></h2>
+            </button>
 
+            <button
+                class="btn-delete__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                <h2 class="text-xl">Eliminar Cliente <i class="fas fa-user-times"></i></h2>
             </button>
         </div>
 
-        @livewire('show-users')
-        
+        @livewire('show-clients')
+
 
         @livewire('create-user')
 
         @livewire('delete-user')
-        
+
 
     </div>
     </div>
@@ -65,7 +69,7 @@
 
 
 
-    
+
     @livewireScripts
     <script src="{{ asset('js/Main.js') }}"></script>
 </body>
