@@ -4,8 +4,8 @@ const createForm = document.querySelector('.create');
 const deleteForm = document.querySelector('.delete');
 const btnCreate = document.querySelector('.btn-create');
 const btnDelete = document.querySelector('.btn-delete');
-const btnCloseCreate = document.querySelector('.close-create__user');
-const btnCloseDelete = document.querySelector('.close-delete__user');
+const btnCloseCreate = document.querySelector('.close-create');
+const btnCloseDelete = document.querySelector('.close-delete');
 
 
 if (createForm) {

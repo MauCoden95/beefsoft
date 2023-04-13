@@ -39,17 +39,17 @@
             @livewire('count-clients')
 
             <button
-                class="btn-create__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                class="btn-create w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
                 <h2 class="text-xl">Agregar cliente <i class="fas fa-plus-square"></i></h2>
             </button>
 
             <button
-                class="btn-delete__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
-                <h2 class="text-xl">Actualizar Cliente <i class="fas fa-user-times"></i></h2>
+                class="btn-update w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                <h2 class="text-xl">Actualizar Cliente <i class="fas fa-edit"></i></h2>
             </button>
 
             <button
-                class="btn-delete__user w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
+                class="btn-delete w-52 h-28 bg-blue-600 hover:bg-blue-800 rounded flex flex-col items-center justify-center">
                 <h2 class="text-xl">Eliminar Cliente <i class="fas fa-user-times"></i></h2>
             </button>
         </div>
@@ -57,9 +57,9 @@
         @livewire('show-clients')
 
 
-        @livewire('create-user')
+        @livewire('create-client')
 
-        @livewire('delete-user')
+        @livewire('delete-client')
 
 
     </div>

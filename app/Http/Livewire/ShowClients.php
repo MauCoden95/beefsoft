@@ -7,6 +7,7 @@ use App\Models\Client;
 
 class ShowClients extends Component
 {
+    protected $listeners = ['render' => 'render'];
     public function render()
     {
         $clients = Client::all();

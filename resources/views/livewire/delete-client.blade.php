@@ -22,11 +22,11 @@
 
             <div class="mb-4">
 
-                <select name="username" wire:model="delete_user"
+                <select name="name" wire:model="delete_client"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                    <option value="">--Usuario--</option>
-                    @foreach ($users as $user)
-                        <option value="{{ $user->username }}">{{ $user->username }}</option>
+                    <option value="">--Cliente--</option>
+                    @foreach ($clients as $client)
+                        <option value="{{ $client->name }}">{{ $client->name }}</option>
                     @endforeach
                 </select>
                 
