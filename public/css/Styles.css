@@ -1,0 +1,11 @@
+#login{
+    background-image: url('../img/Fondo.jpg');
+    object-fit: cover;
+    background-size: 100%;
+}
+
+.create-users,
+.delete-users{
+    background: rgba(21, 21, 21, 0.6);
+}
+
