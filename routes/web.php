@@ -27,6 +27,11 @@ Route::get('/clientes', function () {
     return view('clients');
 });
 
+Route::get('/deudas', function () {
+    return view('debts');
+});
+
+
 Route::post('/create-user', [UserController::class, 'store'])->name('create-user');
 
 Route::get('/dashboard', function () {
